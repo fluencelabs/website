@@ -1,0 +1,20 @@
+$background: #2E72FE;
+$background-light: #DAE6FF;
+$background-dark: #0832FD;
+
+$color-default: white;
+$color-accent: black;
+$color-border: #5a8efe;
+$color-dark: #333333;
+$color-semidark: #8B8B8B;
+$color-small: #B2BFFF;
+
+$font-default: 'Circular', Arial, Helvetica, sans-serif;
+$font-accent: 'Menoe', monospace;
+
+$logo-size-small: 128px;
+
+@mixin animate($sec:.15s, $type: ease-in) {
+    transition: all $sec $type;
+    will-change: auto;
+}

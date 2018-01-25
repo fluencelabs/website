@@ -1,0 +1,26 @@
+- var link_twitter  = "#twitter"
+- var link_telegram = "#tg"
+- var link_btc      = "#btc"
+- var link_github   = "#github"
+
+h2 Keep an eye on Fluence
+
+.subscribe-blocks
+    .subscribe-links
+        ul
+            li: a(href=link_twitter)
+                include ../../img/social-tw.inline.svg
+
+            li: a(href=link_telegram): i.icon.icon-logo-tg__accent
+                include ../../img/social-tg.inline.svg
+
+            li: a(href=link_btc): i.icon.icon-logo-btc__accent
+                include ../../img/social-btc.inline.svg
+
+            li: a(href=link_github): i.icon.icon-logo-gh__accent
+                include ../../img/social-gh.inline.svg
+
+    .subscribe-form
+        include ../helpers/mailchimp.form.html
+
+        p Our emails are awesome and you’ll get them not very often

@@ -1,0 +1,23 @@
+- var footer_link_terms      = "#terms"
+- var footer_link_github     = "#github"
+- var footer_link_policy     = "#policy"
+- var footer_link_demo       = "#demo"
+- var footer_link_about      = "/about.html"
+- var footer_link_whitepaper = "#whitepaper"
+- var footer_link_blog       = "#blog"
+
+.footer-logo
+    a(href="/")
+        include ../../img/logo.inline.svg
+
+.footer-links
+    ul
+        li: a(href=footer_link_terms) Terms of use
+        li: a(href=footer_link_github) Github
+        li: a(href=footer_link_policy) Privacy policy
+        li: a(href=footer_link_demo) Fluence demo
+        li: a(href=footer_link_about) About
+        li: a(href=footer_link_whitepaper) Whitepaper
+        li: a(href=footer_link_blog) Blog
+
+.footer-bottom © 2018 fluence.ai<br/>All rights reserved

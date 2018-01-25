@@ -1,0 +1,26 @@
+- var link_top_whitepaper = "#whitepaper"
+- var link_top_github     = "#github"
+- var link_top_about      = "about.html"
+- var link_top_github     = "#github"
+
+.top-wrapper
+    .top-logo
+        a(href="/")
+            include ../../img/logo.inline.svg
+
+    .top-menu.__menu
+        .top-menu-wrapper
+            a.top-menu-caller__helper.__menuopen(href="#")
+                include ../../img/hamburger.inline.svg
+
+            ul
+                li: a(href=link_top_whitepaper) whitepaper
+                li: a(href=link_top_github) github
+                li: a(href=link_top_about) about
+                li: a(href=link_top_github) blog
+
+    .top-menu-caller
+        a.__menuopen(href="#")
+            include ../../img/hamburger.inline.svg
+
+.top-divider.divider

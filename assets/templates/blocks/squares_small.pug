@@ -1,0 +1,65 @@
+- var link_gh = "#gh"
+
+mixin icon(icon)
+    .item-icon
+        case icon
+            when 'earth'
+                include ../../img/squareblock.earth.inline.svg
+
+            when 'chain'
+                include ../../img/squareblock.chain.inline.svg
+
+            when 'molecule'
+                include ../../img/squareblock.molecule.inline.svg
+
+            when 'cart'
+                include ../../img/squareblock.cart.inline.svg
+
+            when 'lists'
+                include ../../img/squareblock.lists.inline.svg
+
+mixin sqblock(icon, title, description)
+    .item
+        +icon(icon)
+        p.item-title #{title}
+        p #{description}
+
+h2 Build on Fluence
+p Apps, that can be built<br/>using decentralized databases.
+
+.squares_small-blocks
+    +sqblock(
+        'earth',
+        'Unstoppable content',
+        'Build a new Wikileaks or end-to-end encrypted messenger like Telegram'
+    )
+    +sqblock(
+        'chain',
+        'Patient records',
+        'Secure medicine data storage and sharing'
+    )
+    +sqblock(
+        'molecule',
+        'Decentralized insurance',
+        'Escape all the pain about regulated personal data'
+    )
+    +sqblock(
+        'cart',
+        'Data marketplaces',
+        'Store any personal or sensitive data and build economy around'
+    )
+    +sqblock(
+        'lists',
+        'Big data',
+        'Unlimited scale for any dataset size'
+    )
+    .item.item__last
+        p.item-title Already with us
+        include ../../img/squareblock.logos.inline.svg
+
+.squares_small-bottom
+    a.button(href=link_gh)
+        span.icon
+            include ../../img/social-gh.inline.svg
+
+        | Checkout out Github

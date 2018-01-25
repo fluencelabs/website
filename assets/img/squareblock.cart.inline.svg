@@ -1,0 +1,20 @@
+<svg width="96px" height="96px" viewBox="0 0 96 96" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="fluence-web-19-Frederike-Hovers" transform="translate(-208.000000, -2800.000000)">
+            <g id="Group-11" transform="translate(208.000000, 2800.000000)">
+                <circle id="Oval-3" fill="#2E72FE" cx="48" cy="48" r="48"></circle>
+                <g id="Page-1" transform="translate(17.000000, 18.000000)">
+                    <path d="M24,32 L24,20" id="Stroke-1" stroke="#000000" stroke-width="2" stroke-linecap="round"></path>
+                    <path d="M36,32 L36,20" id="Stroke-2" stroke="#000000" stroke-width="2" stroke-linecap="round"></path>
+                    <path d="M48,32 L48,20" id="Stroke-3" stroke="#000000" stroke-width="2" stroke-linecap="round"></path>
+                    <g id="Group-12">
+                        <path d="M16,38 L49,38 C52.556,38 55.685,35.653 56.68,32.24 L62,14 L11.25,14" id="Stroke-4" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M14,49 C10.687,49 8,51.687 8,55 C8,58.313 10.687,61 14,61 C17.313,61 20,58.313 20,55 C20,51.687 17.313,49 14,49 M14,51 C16.205,51 18,52.794 18,55 C18,57.206 16.205,59 14,59 C11.795,59 10,57.206 10,55 C10,52.794 11.795,51 14,51" id="Fill-6" fill="#000000"></path>
+                        <path d="M49,49 C45.687,49 43,51.687 43,55 C43,58.313 45.687,61 49,61 C52.313,61 55,58.313 55,55 C55,51.687 52.313,49 49,49 M49,51 C51.205,51 53,52.794 53,55 C53,57.206 51.205,59 49,59 C46.795,59 45,57.206 45,55 C45,52.794 46.795,51 49,51" id="Fill-8" fill="#000000"></path>
+                        <path d="M53,45 L8,45 C8,41.134 11.134,38 15,38 L16,38 L9.309,6.397 C8.547,2.674 5.271,0 1.471,0 L0,0" id="Stroke-10" stroke="#000000" stroke-width="2" stroke-linecap="round"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

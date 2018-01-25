@@ -1,0 +1,36 @@
+mixin squareblock(num, title, descr, hiddentext)
+    .square(class="square-" + num)
+            .square-main
+                p.square-main-title #{title}
+                p #{descr}
+            .square-hidden
+                p #{hiddentext}
+
+h2.__polyfill(data-supports="textStroke") Internet today
+    span  and tomorrow
+
+.squares-blocks
+    +squareblock(
+        '1',
+        'Data centralization',
+        'Most of the world’s data sit in relatively few locations controlled by a small group of providers.',
+        'Cryptographically impossible to break the whole dataset. All the data is encrypted on a client with user\'s private key.'
+    )
+    +squareblock(
+        '2',
+        'Data leaks',
+        'Centralized clouds leads to data leaks and companies don\'t care.',
+        'Cryptographically impossible to break the whole dataset. All the data is encrypted on a client with user\'s private key.'
+    )
+    +squareblock(
+        '3',
+        'Censorship and regulations',
+        'Governments have full control under personal and sensitive data through ...',
+        'Cryptographically impossible to break the whole dataset. All the data is encrypted on a client with user\'s private key.'
+    )
+    +squareblock(
+        '4',
+        'Fragmentation and regulations',
+        'Modern internet doesn\'t simply work without access to centralized clouds, dns, cdn, etc.',
+        'Cryptographically impossible to break the whole dataset. All the data is encrypted on a client with user\'s private key.'
+    )

@@ -1,0 +1,109 @@
+mixin person(icon, name, status)
+    .person
+        .person-image: img(src="../img/" + icon)
+
+        p.person-name #{name}
+        p.person-status #{status}
+
+        .person-text
+            block
+
+
+h2 Small and daring team
+p We are believe that new technology epoch began, and we are at the forefront of this epoch. We know that small and daring teams with particular goals and sense of market can make revolution faster.
+
+.persons-list
+    +person(
+        '_tmp_person1.png',
+        'Evgeny Ponomarev',
+        'CEO'
+    )
+        p Entrepreneur and product manager. Worked on product at
+            a(href="#")  2GIS
+            |  (20M monthly audience). In charge of the project management track at
+            a(href="#")  CodeFest
+            |  developers conference (1500+ attendees / year). Mined first Bitcoin in
+            a(href="#")  2011
+            |  on CPU.
+
+        p
+            a(href="#") LinkedIn
+
+    +person(
+        '_tmp_person2.png',
+        'Dmitry Kurinsky',
+        'CTO'
+    )
+        p Software engineer and technical leader, building complex engineering projects since 2004. Keen functional programming advocate. Prior to Fluence he was a CTO / lead engineer at a bunch of technology startups.
+
+        p
+            a(href="#") LinkedIn
+            a(href="#")  Github
+
+    +person(
+        '_tmp_person2.png',
+        'Dmitry Kurinsky',
+        'CTO'
+    )
+        p Software engineer and technical leader, building complex engineering projects since 2004. Keen functional programming advocate. Prior to Fluence he was a CTO / lead engineer at a bunch of technology startups.
+
+        p
+            a(href="#") LinkedIn
+            a(href="#")  Github
+
+    +person(
+        '_tmp_person1.png',
+        'Evgeny Ponomarev',
+        'CEO'
+    )
+        p Entrepreneur and product manager. Worked on product at
+            a(href="#")  2GIS
+            |  (20M monthly audience). In charge of the project management track at
+            a(href="#")  CodeFest
+            |  developers conference (1500+ attendees / year). Mined first Bitcoin in
+            a(href="#")  2011
+            |  on CPU.
+
+        p
+            a(href="#") LinkedIn
+
+h2 With powerfull help
+
+.persons-list
+    +person(
+        '_tmp_person1.png',
+        'Evgeny Ponomarev',
+        'CEO'
+    )
+        p Entrepreneur and product manager. Worked on product at
+            a(href="#")  2GIS
+            |  (20M monthly audience). In charge of the project management track at
+            a(href="#")  CodeFest
+            |  developers conference (1500+ attendees / year). Mined first Bitcoin in
+            a(href="#")  2011
+            |  on CPU.
+
+        p
+            a(href="#") LinkedIn
+
+    +person(
+        '_tmp_person2.png',
+        'Dmitry Kurinsky',
+        'CTO'
+    )
+        p Software engineer and technical leader, building complex engineering projects since 2004. Keen functional programming advocate. Prior to Fluence he was a CTO / lead engineer at a bunch of technology startups.
+
+        p
+            a(href="#") LinkedIn
+            a(href="#")  Github
+
+    +person(
+        '_tmp_person2.png',
+        'Dmitry Kurinsky',
+        'CTO'
+    )
+        p Software engineer and technical leader, building complex engineering projects since 2004. Keen functional programming advocate. Prior to Fluence he was a CTO / lead engineer at a bunch of technology startups.
+
+        p
+            a(href="#") LinkedIn
+            a(href="#")  Github

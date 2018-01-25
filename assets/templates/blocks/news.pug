@@ -1,0 +1,24 @@
+mixin news_item(date, title)
+    .news_item
+        p.date #{date}
+        p.title #{title}
+
+h2 Latest news
+
+.news-container
+    .news-container__nav.__slider-nav
+        p.__news_nav-prev
+            include ../../img/arrow-left.inline.svg
+
+        p.__news_nav-next
+            include ../../img/arrow-right.inline.svg
+
+    .news-container__items
+        .__slider
+            .slider-item: +news_item('29.12.2017', 'December status update and plans for 2018')
+            .slider-item: +news_item('12.12.2017', 'Trouble in the city of clouds')
+            .slider-item: +news_item('3.12.2017' , 'FPT unlocked today')
+            .slider-item: +news_item('12.12.2017', 'Trouble in the city of clouds')
+            .slider-item: +news_item('3.12.2017' , 'FPT unlocked today')
+            .slider-item: +news_item('29.12.2017', 'December status update and plans for 2018')
+            .slider-item: +news_item('12.12.2017', 'Trouble in the city of clouds')

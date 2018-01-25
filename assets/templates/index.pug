@@ -1,0 +1,35 @@
+extends layout/layout
+
+include layout/block
+
+block local_vars
+    - var page_title = "Fluence - decentralized database"
+
+//- page content
+block content
+    +block('top')
+        include blocks/top
+
+    +block('header')
+        include blocks/header
+
+    +block('squares')
+        include blocks/squares
+
+    +block('images')
+        include blocks/images
+
+    +block('squares_small')
+        include blocks/squares_small
+
+    +block('additional')
+        include blocks/additional
+
+    +block('news')
+        include blocks/news
+
+    +block('subscribe')
+        include blocks/subscribe
+
+    +block('footer')
+        include blocks/footer
