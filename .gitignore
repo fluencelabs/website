@@ -60,3 +60,4 @@ typings/
 # built
 app/
 app.zip
+.DS_Store

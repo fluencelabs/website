@@ -1,7 +1,7 @@
-mixin news_item(date, title)
+mixin news_item(date, title, href)
     .news_item
         p.date #{date}
-        p.title #{title}
+        a(class="title" href=href) #{title}
 
 h2 Latest news
 
@@ -15,10 +15,10 @@ h2 Latest news
 
     .news-container__items
         .__slider
-            .slider-item: +news_item('29.12.2017', 'December status update and plans for 2018')
-            .slider-item: +news_item('12.12.2017', 'Trouble in the city of clouds')
-            .slider-item: +news_item('3.12.2017' , 'FPT unlocked today')
-            .slider-item: +news_item('12.12.2017', 'Trouble in the city of clouds')
-            .slider-item: +news_item('3.12.2017' , 'FPT unlocked today')
-            .slider-item: +news_item('29.12.2017', 'December status update and plans for 2018')
-            .slider-item: +news_item('12.12.2017', 'Trouble in the city of clouds')
+
+            .slider-item: +news_item('12.12.2017', 'Trouble in the city of clouds', 'http://ya.ru')
+            .slider-item: +news_item('3.12.2017' , 'FPT unlocked today', 'http://ya.ru')
+            .slider-item: +news_item('12.12.2017', 'Trouble in the city of clouds', 'http://ya.ru')
+            .slider-item: +news_item('3.12.2017' , 'FPT unlocked today', 'http://ya.ru')
+            .slider-item: +news_item('29.12.2017', 'December status update and plans for 2018', 'http://ya.ru')
+            .slider-item: +news_item('12.12.2017', 'Trouble in the city of clouds', 'http://ya.ru')
