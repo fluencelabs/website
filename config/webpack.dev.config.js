@@ -4,6 +4,7 @@ const path = require('path');
 const UglifyJSPlugin = require('uglifyjs-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const ExtractTextPlugin = require("extract-text-webpack-plugin");
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 const extractSass = new ExtractTextPlugin({
     filename: "[name].css",
@@ -86,6 +87,11 @@ module.exports = {
             filename: 'about.html',
             template: path.resolve(__dirname, '../assets/templates/about.pug')
         }),
+
+        new CopyWebpackPlugin([{
+          from: path.resolve(__dirname, '../assets/img/favicon.png'),
+          to: "static/favicon.png"
+        }]),
 
         extractSass
     ],
