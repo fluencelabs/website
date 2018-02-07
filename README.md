@@ -1,21 +1,21 @@
-# Fluence.ai
+# Fluence.ai landing page
 
-## Структура директорий
+## Directory index
 
-`./app` - production-ready файлы собранные из ./assets
+`./app` - production-ready files, compiled from ./assets
 
-`./assets` - исходные файлы
+`./assets` - source code
 
-`./config` - конфигурационные файлы для webpack
+`./config` - config for webpack
 
-## Внесение изменений в проект
+## Installation
 
-До начала внесения изменений, необходимо глобально установить `yarn`
+Install `yarn`
 
-Для запуска окружения разработки:
+Run:
 
     yarn dev
 
-Для сборки файлов под продакшен:
+Run prod:
 
     yarn prod
