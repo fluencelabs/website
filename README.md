@@ -1,4 +1,4 @@
-# Fluence.ai landing page
+# Fluence landing page
 
 ## Directory index
 
